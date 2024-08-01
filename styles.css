@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url("https://www.google.com/imgres?q=routine%20cards%20daily%20routine%20to%20doimages&imgurl=https%3A%2F%2Fi.etsystatic.com%2F13744269%2Fr%2Fil%2F449308%2F3454198594%2Fil_fullxfull.3454198594_4mpc.jpg&imgrefurl=https%3A%2F%2Fwww.etsy.com%2Fin-en%2Flisting%2F1103198134%2Fdaily-and-weekly-routine-cards-i-mix-and&docid=LTr9Vi2frntSiM&tbnid=1fRRFgMAburoCM&vet=12ahUKEwiVnO3YztSHAxWpyzgGHX9ZCGQQM3oECEsQAA..i&w=3000&h=2400&hcb=2&ved=2ahUKEwiVnO3YztSHAxWpyzgGHX9ZCGQQM3oECEsQAA");
+}
+
+.container {
+    background: rgb(247, 182, 3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(250, 14, 218, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#addTaskButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addTaskButton:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.delete-button {
+    color: #dc3545;
+}
+
+.edit-button:hover {
+    color: #0056b3;
+}
+
+.delete-button:hover {
+    color: #c82333;
+}
